@@ -2,7 +2,7 @@ import os
 
 # --- ĐƯỜNG DẪN ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, 'weights', 'yolov8n.pt') 
+MODEL_PATH = os.path.join(BASE_DIR, 'weights', 'yolo12s_openvino_model') 
 
 # --- CẤU HÌNH CLASS (COCO DATASET) ---
 # YOLO mặc định: 2=Car, 5=Bus, 7=Truck
